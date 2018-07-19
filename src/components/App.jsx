@@ -57,6 +57,11 @@ class App extends Component {
   render() {
     return (
       <div>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+        </ul>
         <SearchBox term={this.props.appState.term} onInputChange={this.handleInputChange} />
         <ItemList items={this.props.appState.items} onItemSelect={this.handleItemSelect} />
         <ItemDetail item={this.props.appState.selectedItem} />
