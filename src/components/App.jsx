@@ -66,6 +66,7 @@ class App extends Component {
         <SearchBox term={this.props.appState.term} onInputChange={this.handleInputChange} />
         <ItemList items={this.props.appState.items} onItemSelect={this.handleItemSelect} />
         <ItemDetail item={this.props.appState.selectedItem} />
+        <h3>Footer</h3>
       </div>
     );
   }
