@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Tech extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Tech</h2>
-      </div>
-    );
-  }
-}
+const Tech = () => (
+  <div>
+    <p>Hello from Tech</p>
+  </div>
+);
 
 export default Tech;
