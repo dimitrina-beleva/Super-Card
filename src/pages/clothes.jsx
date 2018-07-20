@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Clothes = () => {
-    return (
-        <div>
+const Clothes = () => (
+  <div>
     <p>Clothes</p>
-        </div>
-    );
-};
+  </div>
+);
 
 export default Clothes;
