@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { observable, action } from 'mobx';
-import { BrowserRouter, Route } from 'react-router-dom'; 
-import Header from './components/Header';
 import App from './components/App';
 
 const appState = observable({
