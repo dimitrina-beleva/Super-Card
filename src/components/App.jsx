@@ -5,10 +5,15 @@ import startsWith from 'lodash/startsWith';
 import lowerCase from 'lodash/lowerCase';
 import filter from 'lodash/filter';
 import { observer } from 'mobx-react';
-
 import SearchBox from './SearchBox';
 import ItemList from './ItemList';
 import ItemDetail from './ItemDetail';
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import Auto from '../pages/Auto';
+import Clothes from '../pages/Clothes';
+import Restaurants from '../pages/Restaurants';
+import Sport from '../pages/Sport';
+import Tech from '../pages/Tech';
 
 const ITEMS = [
   { id: 1, title: 'Baby Driver', plot: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.' },

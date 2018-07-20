@@ -11,13 +11,8 @@
   justify-content: space-around;
 }
 
-<<<<<<< HEAD
 .item {
   background: rgb(121, 21, 3);
-=======
-.item-new {
-  background: purple;
->>>>>>> develop
   padding: 5px;
   width: 200px;
   height: 150px;
