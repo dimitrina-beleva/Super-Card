@@ -1,11 +1,9 @@
-# modern-web-apps-development-course-2018
-Modern Web Apps Development course. Including ESLint and Prettier integration.
-
-## AJAX Requests with React
+# Super-Card App
+A simple app made with React that allows users to check for services that have a discount
 
 ```
-> git clone https://github.com/stanimirtt/modern-web-apps-development-course-2018.git
-> cd modern-web-apps-development-course-2018/03 React With MobX
+> git clone https://github.com/Super-Card/Super-Card.git
+> cd Super-Card
 > yarn
 > yarn start
 ```
