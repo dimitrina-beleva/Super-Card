@@ -30,7 +30,6 @@ export class AppState {
   }
 }
 
-
 export const appStatePropType = PropTypes.shape({
   shops: PropTypes.arrayOf(
     PropTypes.shape({
