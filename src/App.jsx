@@ -3,8 +3,8 @@ import { Header, Footer } from './components';
 
 const App = () => (
   <div>
-      <Header />
-      <Footer />
+    <Header />
+    <Footer />
   </div>
 );
 
