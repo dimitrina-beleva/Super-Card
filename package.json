@@ -1,5 +1,5 @@
 {
-  "name": "Super-Card",
+  "name": "super-card",
   "version": "1.0.0",
   "description": "A simple app made with React that allows users to check for services that have a discount.",
   "main": "index.js",
