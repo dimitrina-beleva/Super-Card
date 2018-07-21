@@ -1,9 +1,9 @@
 {
-  "name": "modern-web-apps-development-course-2018",
+  "name": "Super-Card",
   "version": "1.0.0",
-  "description": "Modern Web Apps Development course. Including ESLint and Prettier integration.",
+  "description": "A simple app made with React that allows users to check for services that have a discount.",
   "main": "index.js",
-  "repository": "git@github.com:stanimirtt/modern-web-apps-development-course-2018.git",
+  "repository": "https://github.com/Super-Card/Super-Card",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "eslint": "eslint src --fix -f codeframe --ext .jsx --ext .js ",
@@ -19,7 +19,7 @@
       "git add"
     ]
   },
-  "author": "Stanimir Todorov",
+  "author": "SS team",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.3",
