@@ -5,8 +5,12 @@ import ListItems from './ListItems';
 
 const Locations = () => (
   <div>
-    <p>Locations</p>
+    <h2>Locations</h2>
+    <ListItems>
+      <Item />
+    </ListItems>
+    <Description />
   </div>
 );
 
-export default { Locations, Description, Item, ListItems };
+export default Locations;
