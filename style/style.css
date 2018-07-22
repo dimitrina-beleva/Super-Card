@@ -62,3 +62,24 @@ body {
 .content {
   margin-top: 80px;
 }
+/* footer styling*/
+.footer-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(229, 229, 229, 0.1);
+}
+.about,.navigation,.social{
+  width: 25%;
+  text-align: start;
+  margin-left: 60px;
+}
+.navigation p>a,.social p>a{
+  color: #1C51C2;
+  text-decoration: none;
+}
+.navigation > p{
+  line-height: 8px;
+}
+.center{
+  text-align: center;
+}
