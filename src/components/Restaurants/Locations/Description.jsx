@@ -1,8 +1,10 @@
 import React from 'react';
 
-const Description = () => (
+const Description = (/* ocation */) => (
   <div>
-    <p>Description</p>
+    blaa
+    {/* <h2>{this.location.name}</h2>
+    <p>{this.location.desc}</p> */}
   </div>
 );
 
