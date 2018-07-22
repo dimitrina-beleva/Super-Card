@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Item = () => (
+const Item = ({ location }) => (
   <div>
-    <p>Item</p>
+    <button>{location.name}</button>
   </div>
 );
 
